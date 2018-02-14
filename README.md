@@ -3,8 +3,12 @@ A .net core 2.0 example of a Redis client.
 
 I called this solution RedisFreeOne because it uses a free open source library (see below).
 
-This project was thrown together very quick as a spike to create a Redis client in .NET Core 2.0.  Ultimately, this was to explore aws ElasticCache
-using the Redis engine. 
+This project was thrown together very quick as a spike to create a Redis client in .NET Core 2.0.  Ultimately, this was to explore aws ElasticCache using the Redis engine. 
+
+Please forgive me as I was in a hurry to get a demo up and running. Very little comments. The program will compile and run.  See the HomeController and WidgetController and import the redisdemopostman.json as it calls methods in both of those controllers to perform crud operations in the Redis cache.
+
+You will also need to go to https://redis.io/download and download / startup the redis cache.  I just installed the zip and
+started up redis-server.
 
 The ability to store complex objects was mandatory.
 
