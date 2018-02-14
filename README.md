@@ -1,5 +1,7 @@
 # RedisNetCore20Example
-A .net core 2.0 example of a Redis client
+A .net core 2.0 example of a Redis client.
+
+I called this solution RedisFreeOne because it uses a free open source library (see below).
 
 This project was thrown together very quick as a spike to create a Redis client in .NET Core 2.0.  Ultimately, this was to explore aws ElasticCache
 using the Redis engine. 
@@ -16,3 +18,5 @@ You can find that at
 
 https://github.com/imperugo/StackExchange.Redis.Extensions
 
+You can import the following file into Postman which will give you a collection of the various ways you can hit the API
+redisdemopostman.json  
