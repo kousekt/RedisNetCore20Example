@@ -24,3 +24,7 @@ https://github.com/imperugo/StackExchange.Redis.Extensions
 
 You can import the following file into Postman which will give you a collection of the various ways you can hit the API
 redisdemopostman.json  
+
+Youtube for this showing how it runs.
+
+https://youtu.be/PQBytm8o7zU
